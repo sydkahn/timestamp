@@ -8,6 +8,14 @@ YYYYMMDD_HHMMSS
 
 The generated timestamp is automatically copied to the **Windows clipboard**, making it easy to paste into filenames, documents, notes, or other applications.
 
+## Project Goals
+
+This project started as a small, practical utility, but it also served as an experiment in learning **Rust**.
+
+One of the goals was to investigate Rust as a language for building small, compiled utilities that can produce standalone executables and potentially be built for **multiple operating systems and platforms**.
+
+The timestamp program was deliberately simple so that the focus could be on learning the Rust development workflow — including Cargo, dependencies, compilation, release builds, and platform considerations — rather than on building a complicated application.
+
 ## Example
 
 Running the program produces:
@@ -146,6 +154,15 @@ timestamp/
 
 The compiled `target` directory is intentionally excluded from Git.
 
+## AI-Assisted Development
+
+This project was developed with the assistance of AI tools.
+
+AI was used as a development partner for exploring Rust and its tooling, working through implementation approaches, writing and revising code, troubleshooting errors, and explaining Rust concepts and compiler messages.
+
+The project remained a hands-on learning exercise: the requirements, goals, testing, decisions, and final integration were directed and reviewed by the author.
+
 ## License
 
 This project is provided for personal use and experimentation.
+
